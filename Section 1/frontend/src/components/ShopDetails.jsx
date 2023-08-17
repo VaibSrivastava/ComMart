@@ -10,19 +10,19 @@ const ShopDetails = () => {
   const displayLaptopData = () => {
     return shopData.items.map((item) => (
       <div className="col-md-3 mb-4" style={{ height: "1000px" }}>
-        <div className="card">
+        <div className="card" style={{width:300, height:515}}>
           <img
             className="mx-4"
             src={item.image}
             alt=""
             style={{ width: 250, height: 300, placeItems: "center" }}
           />
-          <div className="card-body">
+          <div className="card-body" style={{backgroundColor:"#FFCBA4"}}>
             <h4>{item.name}</h4>
-            <h2>₹{item.price}</h2>
-            <div className="container w-70">
+            <h3>₹{item.price}/kg</h3>
+            <div className="container w-70" >
               Qty:
-              <select className="m-2 h-100 bg-success rounded">
+              <select className="m-2 h-100 bg-success ">
                 {Array.from(Array(6), (e, i) => {
                   return (
                     <option key={i + 1} value={i + 1}>
@@ -38,7 +38,7 @@ const ShopDetails = () => {
               <div className="d-inline h-100 fs-5">Total Price</div>
             </div>
           </div>
-          <hr></hr>
+          
           <button
             className="btn btn-success justify-center "
             onClick={handleAddToCart}
@@ -50,9 +50,11 @@ const ShopDetails = () => {
     ));
   };
   return (
-    <div className="container">
-        <h3>{shopData.name}</h3>
+    <div style={{backgroundColor:"#7DFDFE"}}>
+    <div className="container"  >
+        <h3 style={{textAlign:"center", color:""}}>{shopData.name}</h3>
       <div className="row mt-5">{displayLaptopData()}</div>
+    </div>
     </div>
   );
 };

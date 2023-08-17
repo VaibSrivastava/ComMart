@@ -16,7 +16,7 @@ const Home = () => {
       return <h1 className="text-center">No Data Found</h1>;
 
     return laptopList.map((laptop, index) => (
-      <div className="col-md-3 mb-4">
+      <div className="col-md-3 mb-4" >
         <div className="card">
           <img src={laptop.image} alt="" style={{ width: 304, height: 200 }} />
           <div className="card-body">
@@ -43,9 +43,9 @@ const Home = () => {
   };
 
   return (
-    <div style={{backgroundImage:"https://koreamin.files.wordpress.com/2015/02/store-pic.png"}}>
+    <div style={{backgroundColor:"yellowgreen"}}>
       <header className="bg-body-tertiary">
-        <div className="container py-5">
+        <div className=" py-5" style={{backgroundColor:"greenyellow"}}>
           <p className="display-2 text-center fw-bold">Shop List</p>
           <input
             type="text"

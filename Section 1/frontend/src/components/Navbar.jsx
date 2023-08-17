@@ -13,12 +13,19 @@ const Navbar = () => {
     if (loggedIn) {
       return (
         <>
-        <li className="nav-item">
-          <button onClick={logout} className="btn btn-danger">Logout</button>
-        </li>
-        <li>
-          <img src={"http://localhost:5000/"+currentUser.avatar} className="ms-4 rounded-circle " width={40} alt="" />
-        </li>
+          <li className="nav-item">
+            <button onClick={logout} className="btn btn-danger">
+              Logout
+            </button>
+          </li>
+          <li>
+            <img
+              src={"http://localhost:5000/" + currentUser.avatar}
+              className="ms-4 rounded-circle "
+              width={40}
+              alt=""
+            />
+          </li>
         </>
       );
     } else {
@@ -42,7 +49,17 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-success">
       <div className="container-fluid">
-        <Link className="navbar-brand" fs-1  href="#" style={{fontSize: '40px', fontStyle: 'italic', fontWeight: 'bold', color:'orange'}}>
+        <Link
+          className="navbar-brand"
+          fs-1
+          href="#"
+          style={{
+            fontSize: "40px",
+            fontStyle: "italic",
+            fontWeight: "bold",
+            color: "orange",
+          }}
+        >
           ComMart
         </Link>
         <button
@@ -65,26 +82,13 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/event">
-                Event Handling
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link className="nav-link" to="/state">
                 Cart
               </Link>
             </li>
-            
-            <li className="nav-item">
-              <Link className="nav-link" to="/manageuser">
-                Manage Users
-              </Link>
-            </li>
 
             {showLoginOption()}
-            
           </ul>
-          
         </div>
       </div>
     </nav>

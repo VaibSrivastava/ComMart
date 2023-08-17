@@ -11,7 +11,7 @@ const shopsData = [
         name: "Fortune Chakki Fresh Atta",
         image:
           "https://m.media-amazon.com/images/I/61AOiVfvtBL._AC_UL480_QL65_.jpg",
-          price: 48,
+          price: 53,
         options: [
           {
             "1kg": 53,
@@ -55,8 +55,8 @@ const shopsData = [
         price: 48,
         options: [
           {
-            "500g": 170,
-            "1kg": 300,
+            "500g": 48,
+            "1kg": 99,
           },
         ],
         description:
@@ -71,9 +71,9 @@ const shopsData = [
     rating:4.3,
     items: [
       {
-          CategoryName: "Jagnath General Store",
           name: "Aashirvaad Atta with Multigrains",
           image: "https://m.media-amazon.com/images/I/91M7LSsv+7L._AC_UL480_QL65_.jpg",
+          price: 70,
           options: [
             {
               "1kg": 70,
@@ -84,9 +84,9 @@ const shopsData = [
             "Aashirvaad Atta with Multigrains is high in fibre which aids in digestion.3 rotis made from Multigrain Atta fulfill 35% of your daily fibre requirement.",
         },
         {
-          CategoryName: "Jagnath General Store",
           name: "Daawat SehatMini Mogra Rice",
           image: "https://m.media-amazon.com/images/I/81zB6gZk7XL._AC_UL480_FMwebp_QL65_.jpg",
+          price: 63,
           options: [
             {
               "1kg": 63,
@@ -96,9 +96,9 @@ const shopsData = [
           description: "Daawat Rozana. Country of Origin: India. Morga rice.",
         },
         {
-          CategoryName: "Jagnath General Store",
           name: "Ganesh Sooji",
           image: "https://m.media-amazon.com/images/I/51OdTYgx+wL._AC_UL480_FMwebp_QL65_.jpg",
+          price: 28,
           options: [
             {
               "500gm": 28,
@@ -109,11 +109,12 @@ const shopsData = [
             "Our Sooji comes from quality wheat grains that ensure perfect taste.Unpolished, high protein, colour sorted, zero impurities.",
         },
         {
-          CategoryName: "Jagnath General Store",
           name: "Ganesh Maida",
           image: "https://m.media-amazon.com/images/I/81jqEpL3uxL._SX522_.jpg",
+          price: 23,
           options: [
             {
+              "500gm": 23,
               "1kg": 46,
             },
           ],
@@ -129,7 +130,6 @@ const shopsData = [
     rating:4.8,
     items: [
       {
-        CategoryName: "Blossom Bakery",
         name: "Cadbury Chocobakes ChocLayered Cakes",
         image: "https://m.media-amazon.com/images/I/61t0Nqvms+L._AC_UL480_FMwebp_QL65_.jpg",
         options: [
@@ -143,6 +143,7 @@ const shopsData = [
       {
         name: "Red Velvet Cake",
         image: "https://yummycake.in/wp-content/uploads/2022/01/classic-red-velvet-cake.jpg",
+        price: 799,
         options: [
           {
             "1/2 kg": 799,
@@ -155,6 +156,7 @@ const shopsData = [
       {
         name: "Black-Forest Cake",
         image: "https://cdn-efohi.nitrocdn.com/nzhjCTbLRQsVpZZpEWBzEjrDSwxMfKMK/assets/images/optimized/rev-b2bd2d0/yummycake.in/wp-content/uploads/2021/03/yummy-black-forest-gems-cake-half-kg_1.jpg",
+        price: 850,
         options: [
           {
             "1/2 kg": 850,
@@ -167,6 +169,7 @@ const shopsData = [
       {
         name: "Vanilla cake",
         image: "https://cdn-efohi.nitrocdn.com/nzhjCTbLRQsVpZZpEWBzEjrDSwxMfKMK/assets/images/optimized/rev-b2bd2d0/yummycake.in/wp-content/uploads/2021/03/vanilla-cake-thumb-800x800.jpg",
+        price: 650,
         options: [
           {
             "1/2 kg": 650,
@@ -187,6 +190,7 @@ const shopsData = [
       {
         name: "Strawberry cake",
         image: "https://justbakedcake.com/wp-content/uploads/2020/09/strawberry-gateaux-1-768x512.jpg",
+        price: 699,
         options: [
           {
             "1/2 kg": 699,
@@ -199,6 +203,7 @@ const shopsData = [
       {
         name: "Butterscotch Cake",
         image: "https://cdn.igp.com/f_auto,q_auto,t_pnopt12prodlp/products/p-classic-butterscotch-cake-1-kg--109216-m.jpg",
+        price: 450,
         options: [
           {
             "1/2 kg": 450,
