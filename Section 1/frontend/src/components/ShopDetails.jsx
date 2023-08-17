@@ -20,7 +20,7 @@ const ShopDetails = () => {
           <div className="card-body" style={{backgroundColor:"#FFCBA4"}}>
             <h4>{item.name}</h4>
             <h3>₹{item.price}/kg</h3>
-            <div className="container w-70" >
+            <div className="container w-70"  >
               Qty:
               <select className="m-2 h-100 bg-success ">
                 {Array.from(Array(6), (e, i) => {

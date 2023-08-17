@@ -17,7 +17,7 @@ const Home = () => {
 
     return laptopList.map((laptop, index) => (
       <div className="col-md-3 mb-4" >
-        <div className="card">
+        <div className="card" style={{backgroundColor:"#FAAFBA"}}>
           <img src={laptop.image} alt="" style={{ width: 304, height: 200 }} />
           <div className="card-body">
             <h4>{laptop.name}</h4>
